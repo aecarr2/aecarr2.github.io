@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Site settings
 title: Austin Carr
 email: aecarr2@asu.edu
@@ -26,5 +25,4 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
-=======
 
