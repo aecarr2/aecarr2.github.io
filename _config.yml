@@ -1,0 +1,27 @@
+# Site settings
+title: Austin Carr
+email: aecarr2@asu.edu
+url: https://aucarr.com
+#description: 
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#ffffff'
+  links: '#219ab3'
+
+# Footer settings
+footer: aucarr.com
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+    
+    - title: linkedin
+      url: https://linkedin.com/in/austin-carr-a068a864/
+
+    - title: github
+      url: https://github.com/aecarr2
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
