@@ -1,0 +1,236 @@
+@import "../../global.scss";
+
+.about {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .about-nav {
+    display: flex;
+
+    @include mobile{
+      flex-direction: column;
+    }
+
+    .nav-leftContainer {
+      display: flex;
+      flex-direction: row;
+      flex: 5;
+      justify-content: flex-start;
+
+      .name-nav-item {
+        h2 {
+          padding-left: 20px;
+          padding-top: 20px;
+          font-family: sans-serif;
+          cursor: pointer;
+        }
+  
+        h2:hover {
+          color: grey;
+        }
+        a {
+          color: black;
+          text-decoration: none;
+        }
+
+        @include mobile{
+          display: flex;
+          justify-content: center;
+
+          h2 {
+            padding-left: 0;
+            justify-content: center;
+          }
+        }
+
+      }
+
+      .list-nav-items {
+        display: flex;
+        flex-direction: row;
+        
+        h5 {
+          padding-left: 50px;
+          padding-top: 20px;
+          cursor: pointer;
+
+          span {
+            text-decoration: underline;
+            text-underline-position: under;
+          }
+        }
+      
+        a {
+          color: black;
+          text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+          text-underline-position: under;
+        }
+
+        @include mobile{
+          justify-content: center;
+
+          h5 {
+            padding-left: 0;
+            padding-top: 10px;
+          }
+
+          a {
+            padding-left: 10px;
+          }
+
+        }
+
+      }
+
+      @include mobile{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center
+      }
+
+    }
+
+    .nav-rightContainer {
+      display: flex;
+      flex-direction: row;
+      flex: 5;
+      justify-content: flex-end;
+
+      .icons {
+        color: black;
+        padding-right: 20px;
+        padding-top: 20px;
+
+        @include mobile{
+          padding-right: 1px;
+          padding-top: 10px;
+
+          transform: scale(0.5);
+        } 
+
+      }
+      @include mobile{
+        justify-content: center;
+      }
+    }
+  }
+
+  .about-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    @include mobile{
+      flex-direction: column;
+    }
+
+    .left {
+      flex: 5;
+      padding-top: 10px;
+      flex-direction: column;
+      padding-top: 100px;
+      margin: 10px;
+
+      h1 {
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-bottom: 2px;
+        font-weight: lighter;
+        
+        @include mobile{
+          font-size: 24px;
+        }
+      }
+
+      p {
+        margin: 20px;
+        font-size: 20px;
+
+        .reactjs {
+          color: #61dafb;
+          font-weight: bold;
+        }
+
+        .job {
+          font-style: italic;
+        }
+
+        a {
+          color: blue;
+          text-decoration: none;
+        }
+
+        a:visited {
+          color: none;
+        }
+
+        a:hover {
+          text-decoration:underline;
+        }
+
+        @include mobile{
+          font-size: 12px;
+      }
+
+      }
+
+      @include mobile{
+        padding-top: 0;
+        display: flex;
+        flex: 4;
+        justify-content: center;
+      }
+
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 5;
+
+      .imgContainer {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        img {
+          width: 50%;
+          display: flex;
+          border-radius: 8px;
+          margin: 30px;
+          
+        }
+
+        @include mobile{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+        }
+
+      }
+
+      @include mobile{
+        flex: 6;
+      }
+
+    }
+
+  }
+
+}
