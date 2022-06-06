@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e36fc14e.css",
-    "main.js": "/static/js/main.6aaae312.js",
+    "main.js": "/static/js/main.2d17ccca.js",
     "static/media/me.png": "/static/media/me.206902d4348d895b67c1.png",
     "static/media/introbackground.png": "/static/media/introbackground.297cebfa349fb9e7bbe1.png",
     "static/media/AustinCarr.pdf": "/static/media/AustinCarr.4edba78bae0a723754a9.pdf",
     "index.html": "/index.html",
     "main.e36fc14e.css.map": "/static/css/main.e36fc14e.css.map",
-    "main.6aaae312.js.map": "/static/js/main.6aaae312.js.map"
+    "main.2d17ccca.js.map": "/static/js/main.2d17ccca.js.map"
   },
   "entrypoints": [
     "static/css/main.e36fc14e.css",
-    "static/js/main.6aaae312.js"
+    "static/js/main.2d17ccca.js"
   ]
 }
